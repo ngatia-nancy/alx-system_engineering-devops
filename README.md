@@ -1,1 +1,1 @@
-My training on git
+Task 0. Where am i?
