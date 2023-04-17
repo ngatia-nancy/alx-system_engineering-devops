@@ -1,7 +1,7 @@
                                               Firewall
 In this project, I used ufw to configure firewall on my issued webservers
 
-  Tasks
+        Tasks
 0. Block all incoming traffic but - Configure ufw so that it blocks all incoming traffic, except the following TCP ports:
 22 (SSH)
 443 (HTTPS SSL)
