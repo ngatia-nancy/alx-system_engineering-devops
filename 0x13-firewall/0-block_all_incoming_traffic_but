@@ -1,0 +1,13 @@
+# install and configure ufw
+
+sudo apt update && sudo apt upgrade  #update my server
+
+#installing ufw and adding ufw rules
+sudo apt install ufw
+sudo ufw disable
+sudo ufw default allow outgoing # set default policy for outgoing connections
+sudo ufw default deny incoming # set default policy for incoming traffic
+sudo ufw allow 22/tcp  # allow ssh 
+sudo ufw allow 80/tcp  # allow http
+sudo ufw allow 443/tcp  # allow https
+sudo ufw enable # enable ufw
