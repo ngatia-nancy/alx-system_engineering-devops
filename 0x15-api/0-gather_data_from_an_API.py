@@ -7,11 +7,7 @@ import sys
 
 if __name__ == '__main__':
     employeeId = sys.argv[1]
-<<<<<<< HEAD
     baseUrl = "http://jsonplaceholder.typicode.com/users"
-=======
-    baseUrl = "https://jsonplaceholder.typicode.com/users"
->>>>>>> 70fe511d30a56ccafb130a053a45810fdee1f3fa
     url = baseUrl + "/" + employeeId
 
     response = requests.get(url)
